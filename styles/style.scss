@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/IMAGE\ \(1\).png");
+    background-size: cover;
+    padding-top: 6vh;
+
+    .oram {
+        height: 100%;
+
+        .nav-menu {
+            height: 4rem;
+
+            .menu {
+                // border: 1px solid red;
+                width: 60%;
+                height: 100%;
+                margin-bottom: 0;
+            }
+
+            .menu li {
+                display: inline-block;
+
+            }
+        }
+
+        .header-text {
+            padding-top: 20vh;
+            // border: 1px solid white;
+            color: white;
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            p {
+                line-height: 2rem;
+                font-size: 0.8rem;
+            }
+
+            a {
+                display: inline-block;
+                width: 150px;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+.your {
+    position: relative;
+    top: -60px;
+    display: flex;
+    height: 350px;
+    // border: 1px solid red;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+
+    .text {
+        padding: 6rem 2rem;
+        // border: 1px solid red;
+        width: 700px;
+        line-height: 30px;
+
+        p {
+            color: rgba(0, 0, 0, 0.534);
+        }
+    }
+
+    .ikkiQator {
+        width: 100%;
+
+        .bir,
+        .ikki {
+            width: 100%;
+            height: 50%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .bir p,
+        .ikki p {
+            font-size: 0.75rem;
+            width: 120px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .bir p {
+            position: relative;
+            bottom: -30px;
+        }
+    }
+}
+
+.whereAreYouNow {
+    margin-bottom: 8rem;
+
+    >p {
+        margin: 3rem 0;
+    }
+
+    .sarlavhalar {
+        a {
+            color: black;
+        }
+
+        .active {
+            color: #0A8BFE;
+        }
+    }
+
+    .cardlar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 40px;
+        margin: 2rem 0;
+
+        .card {
+            padding: 38px 80px 40px 40px;
+            text-align: start;
+
+            p {
+                color: #737373;
+            }
+        }
+    }
+
+    >a {
+        width: 160px;
+        line-height: 40px;
+    }
+}
+
+.wereProud {
+    position: relative;
+    background: #0E0E33;
+    height: 125vh;
+    padding-top: 150px;
+
+    h1,
+    .otasi * {
+        color: white;
+    }
+
+    .otasi {
+        padding: 80px 0 10px 0;
+
+        div {
+            padding: 0 80px 0 80px;
+            line-height: 30px;
+
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+.kartalar {
+    position: relative;
+    top: -60vh;
+    text-align: center;
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 40px;
+        margin-top: 2rem;
+
+        .card {
+            padding: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+            text-align: start;
+
+            h3 {
+                margin: 45px 25px 0 25px;
+            }
+
+            p {
+                margin: 20px 25px 25px 25px;
+            }
+        }
+    }
+
+    >a {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 2rem auto 4rem auto;
+        line-height: 40px;
+        color: black;
+    }
+}
+
+.weValue {
+    position: relative;
+    top: -50vh;
+
+    p {
+        margin: 2rem auto 4rem auto;
+        width: 60%;
+        font-size: 11px;
+    }
+}
+
+.regionalPartnerships {
+    position: relative;
+    top: -30vh;
+
+    h1 {
+        position: relative;
+        top: -3rem;
+        text-align: center;
+    }
+
+    .gridga {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1rem;
+
+        .card {
+            padding: 30px 20px;
+            height: 230px;
+            background-repeat: no-repeat;
+            background-position: 90% 80%;
+        }
+
+        .card:first-child {
+            background-image: url(../img/city-col.png);
+        }
+
+        .card:nth-child(2) {
+            background-image: url("../img/city-col\ \(1\).png");
+        }
+
+        .card:nth-child(3) {
+            background-image: url("../img/city-col\ \(2\).png");
+        }
+
+        .card:nth-child(4) {
+            background-image: url("../img/city-col\ \(3\).png");
+        }
+
+        .card:nth-child(5) {
+            background-image: url("../img/city-col\ \(4\).png");
+        }
+
+        .card:nth-child(6) {
+            background-image: url("../img/city-col\ \(5\).png");
+        }
+    }
+}
+
+.request {
+    position: relative;
+    top: -20vh;
+    width: 100%;
+    height: 140vh;
+    background-image: url("../img/Team.png");
+    background-size: cover;
+
+    .form {
+        background-color: white;
+        // border: 1px solid red;
+        position: absolute;
+        padding: 30px 50px;
+        width: 40%;
+        height: auto;
+        bottom: 0;
+        left: 30%;
+        text-align: center;
+        box-shadow: 0 0 15 px rgba(0, 0, 0, 0.425);
+
+        h3 {
+            text-align: start;
+            margin-bottom: 8rem;
+        }
+
+        textarea {
+            width: 100%;
+            margin: 2rem 0;
+            padding: 10px;
+        }
+    }
+}
+
+.faq {
+    > p{
+        font-size: 12px;
+        margin: 2rem 0;
+        a{
+            color: rgb(132, 132, 247);
+        }
+    }
+    .accordion-button {
+        line-height: 50px;
+    }
+    .accordion-body{
+        text-align: start;
+    }
+}

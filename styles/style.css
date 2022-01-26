@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/IMAGE (1).png");
+  background-size: cover;
+  padding-top: 6vh;
+}
+
+header .oram {
+  height: 100%;
+}
+
+header .oram .nav-menu {
+  height: 4rem;
+}
+
+header .oram .nav-menu .menu {
+  width: 60%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+header .oram .nav-menu .menu li {
+  display: inline-block;
+}
+
+header .oram .header-text {
+  padding-top: 20vh;
+  color: white;
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .oram .header-text p {
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+header .oram .header-text a {
+  display: inline-block;
+  width: 150px;
+  padding: 15px;
+}
+
+.your {
+  position: relative;
+  top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+.your .text {
+  padding: 6rem 2rem;
+  width: 700px;
+  line-height: 30px;
+}
+
+.your .text p {
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.your .ikkiQator {
+  width: 100%;
+}
+
+.your .ikkiQator .bir,
+.your .ikkiQator .ikki {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.your .ikkiQator .bir p,
+.your .ikkiQator .ikki p {
+  font-size: 0.75rem;
+  width: 120px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.your .ikkiQator .bir p {
+  position: relative;
+  bottom: -30px;
+}
+
+.whereAreYouNow {
+  margin-bottom: 8rem;
+}
+
+.whereAreYouNow > p {
+  margin: 3rem 0;
+}
+
+.whereAreYouNow .sarlavhalar a {
+  color: black;
+}
+
+.whereAreYouNow .sarlavhalar .active {
+  color: #0A8BFE;
+}
+
+.whereAreYouNow .cardlar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  grid-gap: 40px;
+  margin: 2rem 0;
+}
+
+.whereAreYouNow .cardlar .card {
+  padding: 38px 80px 40px 40px;
+  text-align: start;
+}
+
+.whereAreYouNow .cardlar .card p {
+  color: #737373;
+}
+
+.whereAreYouNow > a {
+  width: 160px;
+  line-height: 40px;
+}
+
+.wereProud {
+  position: relative;
+  background: #0E0E33;
+  height: 125vh;
+  padding-top: 150px;
+}
+
+.wereProud h1,
+.wereProud .otasi * {
+  color: white;
+}
+
+.wereProud .otasi {
+  padding: 80px 0 10px 0;
+}
+
+.wereProud .otasi div {
+  padding: 0 80px 0 80px;
+  line-height: 30px;
+}
+
+.wereProud .otasi div p {
+  font-size: 11px;
+}
+
+.kartalar {
+  position: relative;
+  top: -60vh;
+  text-align: center;
+}
+
+.kartalar .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  grid-gap: 40px;
+  margin-top: 2rem;
+}
+
+.kartalar .cards .card {
+  padding: 10px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+  text-align: start;
+}
+
+.kartalar .cards .card h3 {
+  margin: 45px 25px 0 25px;
+}
+
+.kartalar .cards .card p {
+  margin: 20px 25px 25px 25px;
+}
+
+.kartalar > a {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 2rem auto 4rem auto;
+  line-height: 40px;
+  color: black;
+}
+
+.weValue {
+  position: relative;
+  top: -50vh;
+}
+
+.weValue p {
+  margin: 2rem auto 4rem auto;
+  width: 60%;
+  font-size: 11px;
+}
+
+.regionalPartnerships {
+  position: relative;
+  top: -30vh;
+}
+
+.regionalPartnerships h1 {
+  position: relative;
+  top: -3rem;
+  text-align: center;
+}
+
+.regionalPartnerships .gridga {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  grid-gap: 1rem;
+}
+
+.regionalPartnerships .gridga .card {
+  padding: 30px 20px;
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: 90% 80%;
+}
+
+.regionalPartnerships .gridga .card:first-child {
+  background-image: url(../img/city-col.png);
+}
+
+.regionalPartnerships .gridga .card:nth-child(2) {
+  background-image: url("../img/city-col (1).png");
+}
+
+.regionalPartnerships .gridga .card:nth-child(3) {
+  background-image: url("../img/city-col (2).png");
+}
+
+.regionalPartnerships .gridga .card:nth-child(4) {
+  background-image: url("../img/city-col (3).png");
+}
+
+.regionalPartnerships .gridga .card:nth-child(5) {
+  background-image: url("../img/city-col (4).png");
+}
+
+.regionalPartnerships .gridga .card:nth-child(6) {
+  background-image: url("../img/city-col (5).png");
+}
+
+.request {
+  position: relative;
+  top: -20vh;
+  width: 100%;
+  height: 140vh;
+  background-image: url("../img/Team.png");
+  background-size: cover;
+}
+
+.request .form {
+  background-color: white;
+  position: absolute;
+  padding: 30px 50px;
+  width: 40%;
+  height: auto;
+  bottom: 0;
+  left: 30%;
+  text-align: center;
+  -webkit-box-shadow: 0 0 15 px rgba(0, 0, 0, 0.425);
+          box-shadow: 0 0 15 px rgba(0, 0, 0, 0.425);
+}
+
+.request .form h3 {
+  text-align: start;
+  margin-bottom: 8rem;
+}
+
+.request .form textarea {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 10px;
+}
+
+.faq > p {
+  font-size: 12px;
+  margin: 2rem 0;
+}
+
+.faq > p a {
+  color: #8484f7;
+}
+
+.faq .accordion-button {
+  line-height: 50px;
+}
+
+.faq .accordion-body {
+  text-align: start;
+}
+/*# sourceMappingURL=style.css.map */
